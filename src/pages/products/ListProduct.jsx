@@ -49,7 +49,7 @@ export default function ListProduct(){
                     products.map((item) =>
                         <tr key={item.id}>
                             <td>{item.id}</td>
-                            <td>{item.title}</td>
+                            <td> {item.title}</td>
                             <td>{item.description}</td>
                             <td>{item.price}</td>
                             <td>
